@@ -3,6 +3,7 @@ import javax.persistence.*;
 
 import miHexagonal.core.domain.Book;
 
+@Entity
 public class BookEntity {
 
 	@Id
