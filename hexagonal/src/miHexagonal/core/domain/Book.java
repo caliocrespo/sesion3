@@ -5,8 +5,14 @@ public class Book {
 	public Book() {
 		
 	}
-
 	private Long id;
+	private String name;
+	public Book(Long id2, String name2) {
+		id=id2;
+		name=name2;
+	}
+
+	
 	public Long getId() {
 		return id;
 	}
@@ -19,7 +25,7 @@ public class Book {
 	public void setName(String name) {
 		this.name = name;
 	}
-	private String name;
+	
 	
 
 }
